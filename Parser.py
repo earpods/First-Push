@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from tensorflow.examples.tutorials.mnist import input_data
 
-
+#just checking file changes
 def sigmoid ( z ):
 	return 1 / ( 1 + np.exp( -z ) )
 
